@@ -1,0 +1,40 @@
+.wegr-box {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-family: Arial, sans-serif;
+  font-size: 10px;
+  background: transparent; /* deixa livre para herdar do site */
+}
+
+.wegr-icon {
+  width: 18px;
+  height: 18px;
+}
+
+.wegr-stars {
+  display: flex;
+  align-items: center;
+  width: 75px;
+}
+
+.wegr-rating-img {
+  height: 14px; /* ajustado para ficar proporcional ao texto */
+}
+
+.wegr-text {
+  margin-left: 4px;
+  color: #fff; /* mais legível em fundos escuros */
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.wegr-verificado {
+  color: #2ecc71; /* verde de verificado */
+  border-radius: 5px;
+  padding: 2px 4px;
+  font-size: 10px;
+  line-height: 1;
+  text-decoration: none;
+  display: inline-block;
+}
